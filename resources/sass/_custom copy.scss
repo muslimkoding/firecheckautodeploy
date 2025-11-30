@@ -1,0 +1,61 @@
+.nav .nav-link {
+  color: #000;
+}
+
+.active {
+  background-color: #f8f9fa !important;
+  border-radius: 0.8rem !important;
+  color: #000 !important;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.sb-sidenav-menu .nav-link {
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+}
+
+.sb-sidenav-menu-nested {
+  margin: 0.3rem 0 0.3rem 0;
+}
+
+// CARD ===============================
+.card {
+  border-radius: 0.8rem !important;
+  overflow: hidden;
+  border-color: #f8f9fa;
+
+}
+
+.card .card-header {
+  border-bottom: none;
+  background-color: #f8f9fa;
+}
+
+.card .card-body {
+  background-color: #f8f9fa;
+}
+
+.card-body-inner {
+  border: 1px solid rgba(0, 0, 0, 0.1); /* garis luar halus */
+  border-radius: 10px; /* sudut melengkung */
+  padding: 1rem; /* ruang dalam agar lega */
+  background-color: #fff; /* pastikan kontras kalau background luar abu-abu */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03); /* sentuhan shadow lembut opsional */
+}
+
+// TABLE =============================
+/* Header atas kiri & kanan */
+.table thead tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+.table thead tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+/* Bagian bawah kiri & kanan */
+.table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+.table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
