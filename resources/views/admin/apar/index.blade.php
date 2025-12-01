@@ -112,7 +112,7 @@
                             <option value="no_date">Tidak Ada Tanggal</option>
                         </select>
                     </div>
-                    <div class="col-md-6 d-flex align-items-end">
+                    <div class="col-md-6 d-flex align-items-end mt-2 mt-sm-0">
                         <button type="button" class="btn btn-sm btn-primary me-2" id="applyFilter">
                             <i class="fas fa-filter"></i> Terapkan Filter
                         </button>
