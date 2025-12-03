@@ -391,7 +391,8 @@
             </div>
             <h1 class="app-title">ARFF UPG</h1>
             {{-- <h1 class="app-title">FireCheck</h1> --}}
-            <p class="app-subtitle">Sistem Check & Monitoring APAR & Hydrant</p>
+            {{-- <p class="app-subtitle">Sistem Check & Monitoring APAR & Hydrant</p> --}}
+            <p class="app-subtitle">Testing Git Pull</p>
         </header>
 
         @if(session('error'))
